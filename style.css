@@ -1,0 +1,69 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fundoPage {
+    background-color: #131212;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+    font-size: 22rem;
+}
+
+.instrucao {
+    padding-top: 10rem;
+    font-size: 2rem;
+}
+
+.imagemCorrespondente img {
+    width: 180px;
+}
+
+.modal {
+    max-width: 750px;
+    text-align: center;
+}
+
+.imgs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    padding-bottom: 3rem;
+}
+
+.imgs button:focus,
+.imgs button:hover,
+.imgs button:active,
+.imgs button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.letraAtual {
+    font-size: 2.2rem;
+    color: #201e1e;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.chamadaSelecione {
+    font-size: 2rem;
+    color: #201e1e;
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+}
